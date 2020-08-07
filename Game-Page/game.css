@@ -3,71 +3,29 @@
     color: rgb(163, 163, 163);
     position: relative;
     top: 8px;
-    left: 620px;
+    left: 765px;
+}
+
+body {
+    background-image: url(../images/giphy\ \(2\).gif);
 }
 
 #Title {
     color: #1b998b;
 }
 
-#myVideo {
-    z-index: -1;
-    width: 100%;
+#btn {
+    float: right;
     position: absolute;
-  }
-
-.card {
-    margin: auto;
-    margin-top: 20px;
-}
-
-.card-body {
-    background-color: #0d1f2d;
-}
-
-.card-title {
-    color: #1b998b;
-
-}
-
-.card-text {
-    color: #fae1df;
-}
-
-#card1title {
-      position: relative;
-      top: 5px;
-      left: 125px;
-  }
-
-#card2title {
-    position: relative;
-    top: 10px;
-    right: 120px;
-}
-
-.images {
-    margin-top: 20px;
-    height: 445px;
-    width: 274px;
-}
-
-#img1 {
-    position: relative;
-}
-
-#img3 {
-    position: relative;
-}
-
-#img4 {
-    position: relative;
+    bottom: 0px;
+    right: 0px;
+    margin: 0;
 }
 
 #square{
     position: absolute;
     top: 120px;
-    left: 50px;
+    left: 80px;
     color: peru;
     background-color: rgb(0, 0, 0);
     height: 75px;
@@ -88,7 +46,7 @@
 #square1{
         position: absolute;
         top: 120px;
-        right: 50px;
+        right: 80px;
         color: peru;
         background-color: rgb(0, 0, 0);
         height: 75px;
@@ -109,7 +67,7 @@
 #square2{
         position: absolute;
         top: 300px;
-        left: 50px;
+        left: 80px;
         color: peru;
         background-color: rgb(0, 0, 0);
         height: 75px;
@@ -130,7 +88,7 @@
 #square3{
         position: absolute;
         top: 480px;
-        right: 50px;
+        right: 80px;
         color: peru;
         background-color: rgb(0, 0, 0);
         height: 75px;
@@ -151,7 +109,7 @@
 #square4{
     position: absolute;
     top: 480px;
-    left: 50px;
+    left: 80px;
     color: peru;
     background-color: rgb(0, 0, 0);
     height: 75px;
@@ -172,7 +130,7 @@
 #square5{
     position: absolute;
     top: 660px;
-    right: 50px;
+    right: 80px;
     color: peru;
     background-color: rgb(0, 0, 0);
     height: 75px;
@@ -193,7 +151,7 @@
 #square6{
     position: absolute;
     top: 660px;
-    left: 50px;
+    left: 80px;
     color: peru;
     background-color: rgb(0, 0, 0);
     height: 75px;
@@ -214,7 +172,49 @@
 #square7{
     position: absolute;
     top: 300px;
-    right: 50px;
+    right: 80px;
+    color: peru;
+    background-color: rgb(0, 0, 0);
+    height: 75px;
+    padding: 20px;
+    margin: 0px;
+    width: 75px;
+    animation:w3-spin 12s infinite linear;
+    animation-duration: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: w3-spin, example;
+}
+
+#square8{
+    position: absolute;
+    top: 840px;
+    left: 80px;
+    color: peru;
+    background-color: rgb(0, 0, 0);
+    height: 75px;
+    padding: 20px;
+    margin: 0px;
+    width: 75px;
+    animation:w3-spin 12s infinite linear;
+    animation-duration: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: w3-spin, example;
+}
+
+#square9{
+    position: absolute;
+    top: 840px;
+    right: 80px;
     color: peru;
     background-color: rgb(0, 0, 0);
     height: 75px;
